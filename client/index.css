@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+header {
+    background: lightgoldenrodyellow;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+section, .review-block, .form-group input,
+.form-group textarea  {
+    padding: 20px;
+    margin-top: 10px;
+    background: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group textarea {
+    width: 500px;
+}
+
+.form-group input {
+    width: fit-content;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: hover;
+}
+
+button:hover {
+    background-color: rgb(184, 182, 182);
+}
+
